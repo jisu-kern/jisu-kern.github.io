@@ -1,0 +1,85 @@
+:root {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'NanumSquareNeo', 'Malgun Gothic', Courier, monospace;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.name-tag:hover {
+    opacity: 0.6;
+}
+
+.page-main {
+    display: grid;
+    padding: 8px 1rem;
+    row-gap: 16px;
+}
+
+.project-wrapper {
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+b,
+.bold {
+    font-weight: 700;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+.page {
+}
+
+.flex-line {
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.125rem;
+    background-color: currentColor;
+}
+
+.icon-envelope {
+    mask-image: url("/svg/envelope.svg");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 300;
+    src: url("./fonts/NanumSquareNeoTTF-aLt.woff2");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 400;
+    src: url("./fonts/NanumSquareNeoTTF-bRg.woff2");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 700;
+    src: url("./fonts/NanumSquareNeoTTF-cBd.woff2");
+}
